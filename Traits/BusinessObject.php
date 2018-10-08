@@ -1,8 +1,8 @@
 <?php
 
-namespace Admin\Business\Traits;
+namespace Modules\Business\Traits;
 
-use Admin\Business\Models\Customer;
+use Modules\Business\Models\Customer;
 
 
 /**

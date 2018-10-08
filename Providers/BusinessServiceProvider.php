@@ -1,6 +1,6 @@
 <?php
 
-namespace Admin\Business\Providers;
+namespace Modules\Business\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Eloquent\Factory;
@@ -91,7 +91,7 @@ class BusinessServiceProvider extends ServiceProvider
 
     /**
      * Register an additional directory of factories.
-     * 
+     *
      * @return void
      */
     public function registerFactories()
