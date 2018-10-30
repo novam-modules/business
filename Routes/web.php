@@ -12,7 +12,7 @@
 */
 foreach(user_routes() as $prefix){
 
-    Route::group(['prefix' => $prefix, 'middleware' => ['web', 'admin']], function() {
-        Route::resource('business', 'BusinessController@index');
+    Route::group(['prefix' => $prefix, 'middleware' => 'admin'], function() {
+        Route::resource('business', BusinessController::class);
     });
 }
