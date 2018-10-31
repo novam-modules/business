@@ -10,7 +10,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Admin\\Business\\Providers\\BusinessServiceProvider"
+                "Modules\\Business\\Providers\\BusinessServiceProvider"
             ],
             "aliases": {
                 
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Admin\\Business\\": ""
+            "Modules\\Business\\": ""
         }
     }
 }
